@@ -1,0 +1,29 @@
+{
+  "global": {
+    "costes_directos": [0.50, 0.55],
+    "margen_bruto": [0.45, 0.50],
+    "costes_fijos": [0.15, 0.20],
+    "ebitda": [0.25, 0.30],
+    "nivel_subactividad": [0.15, 0.20]
+  },
+  "lineas_negocio": {
+    "consultoria": {
+      "precio_jornada": [600, 700, 800],
+      "margen_bruto": [0.18, 0.24, 0.30],
+      "ebitda": [0.10, 0.15, 0.20],
+      "utilizacion": [0.60, 0.68, 0.75]
+    },
+    "software": {
+      "precio_jornada": [800, 1200, 2000],
+      "margen_bruto": [0.50, 0.60, 0.75],
+      "ebitda": [0.20, 0.30, 0.40],
+      "utilizacion": [0.65, 0.70, 0.80]
+    },
+    "mixto": {
+      "precio_jornada": [700, 1000, 1500],
+      "margen_bruto": [0.30, 0.40, 0.50],
+      "ebitda": [0.15, 0.25, 0.35],
+      "utilizacion": [0.60, 0.70, 0.78]
+    }
+  }
+}
